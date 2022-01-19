@@ -6,7 +6,7 @@ const alunos = [
     { nome: "Nilson", nota: 8.9, bolsista: false },
 ]
 //Desafio 1: Todos os alunos são bolsistas?
-const todosBolsistas = (resultado, bolsista) => resultado && bolsista
+const todosBolsistas = (resultado, bolsista) => resultado && bolsista 
 
 console.log(alunos.map(a => a.bolsista).reduce(todosBolsistas))
 
